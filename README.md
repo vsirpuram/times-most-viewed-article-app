@@ -19,7 +19,9 @@ This Project shows the list of Popular and Most Viewed Articles using NY Times A
 3. **Install dependencies using npm or yarn:**
    ```bash
    npm install
-   # or
+   ```
+   or
+   ```bash
    yarn install
    ```
 
@@ -29,7 +31,9 @@ To run the project, use the following command:
 
 ```bash
 npm run dev
-# or
+```
+or
+```bash
 yarn run dev
 ```
 This will start the project and you can access it in your browser at http://127.0.0.1:5173.
@@ -41,7 +45,9 @@ To run tests, use the following command:
 
 ```bash
 npm test
-# or
+```
+or
+```bash
 yarn test
 ```
 
@@ -53,10 +59,11 @@ To generate a coverage report, use the following command:
 
 ```bash
 npm run coverage
-# or
-yarn coverage
 ```
-
+or
+```bash
+yarn run coverage
+```
 This will generate a coverage report and store it in the coverage directory. The coverage report provides insights into the percentage of code covered by tests, helping identify areas that may need additional testing. Open lcov-report directory inside coverage directory and open index.html with a live server to see the test report.
 
 ## License
