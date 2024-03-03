@@ -13,7 +13,9 @@ function App() {
       <Main>
         <PopularArticles />
       </Main>
-      <Footer />
+      <Footer>
+        Copyright (c) 2024 The New York Times Company.  All Rights Reserved.
+      </Footer>
     </>
   );
 }
