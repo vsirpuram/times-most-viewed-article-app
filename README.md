@@ -28,9 +28,9 @@ This Project shows the list of Popular and Most Viewed Articles using NY Times A
 To run the project, use the following command:
 
 ```bash
-npm start dev
+npm run dev
 # or
-yarn start dev
+yarn run dev
 ```
 This will start the project and you can access it in your browser at http://127.0.0.1:5173.
 
