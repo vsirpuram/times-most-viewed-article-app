@@ -57,7 +57,7 @@ npm run coverage
 yarn coverage
 ```
 
-This will generate a coverage report and store it in the coverage directory. The coverage report provides insights into the percentage of code covered by tests, helping identify areas that may need additional testing.
+This will generate a coverage report and store it in the coverage directory. The coverage report provides insights into the percentage of code covered by tests, helping identify areas that may need additional testing. Open lcov-report directory inside coverage directory and open index.html with a live server to see the test report.
 
 ## License
 
