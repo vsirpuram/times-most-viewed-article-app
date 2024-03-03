@@ -1,10 +1,18 @@
 import React from 'react';
-import './App.module.scss';
+
+import Header from './components/common/Header';
+import Main from './components/common/Main';
+import Footer from './components/common/Footer';
+import PopularArticles from './pages/PopularArticles';
 
 function App() {
   return (
     <>
-      Hello World!
+      <Header />
+      <Main>
+        <PopularArticles />
+      </Main>
+      <Footer />
     </>
   );
 }
