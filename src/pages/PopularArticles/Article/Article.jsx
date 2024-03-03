@@ -2,7 +2,7 @@
 import React from 'react';
 import Card from '../../../components/common/Card';
 import Image from '../../../components/ui/Image/Image';
-import formatDate from '../../../utils/helpers';
+import { formatDate } from '../../../utils/helpers';
 
 import ModuleCss from './Article.module.scss';
 
