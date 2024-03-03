@@ -34,6 +34,7 @@ module.exports = {
       'off',
       {
         devDependencies: [
+          '**/__mocks__/**', // jest pattern
           'test/**', // tape, common npm pattern
           'tests/**', // also common npm pattern
           'test.{js,jsx}', // repos with a single test fil
