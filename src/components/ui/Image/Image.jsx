@@ -3,11 +3,14 @@ import React from 'react';
 
 import ModuleCss from './Image.module.scss';
 
-function Image({ src, alt, showCaption }) {
+function Image({ src, alt, className }) {
   return (
     <picture className={[ModuleCss.imgWrapper]} title={alt}>
-      <img className={ModuleCss.img} src={src} alt={alt} />
-      {showCaption && <div className={ModuleCss.caption}>{alt}</div>}
+      <img
+        className={[ModuleCss.img, className].join(' ')}
+        src={src}
+        alt={alt}
+      />
     </picture>
   );
 }

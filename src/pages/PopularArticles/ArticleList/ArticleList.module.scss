@@ -1,0 +1,11 @@
+.articleListWrapper {
+	min-height: 16rem;
+	color: var(--color-content-primary);
+	border-bottom: 1px solid var(--color-stroke-tertiary);
+	cursor: pointer;
+
+	&:hover {
+		background-color: var(--color-background-hover);
+		transition: 0.5s linear;
+	}
+}

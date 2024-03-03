@@ -9,9 +9,11 @@
 	--color-background-inversePrimary: hsla(0, 0%, 7.06%, 1);
 	--color-background-inverseSecondary: hsla(0, 0%, 21.18%, 1);
 	--color-background-overlay: hsla(0, 0%, 7.06%, 0.58);
+	--color-background-hover: hsl(0, 6%, 93%);
 
 	--color-stroke-primary: hsla(0, 0%, 7.06%, 1);
 	--color-stroke-secondary: hsla(0, 0%, 54.51%, 1);
+	--color-stroke-tertiary: hsl(0, 0%, 89%);
 	--color-stroke-inversePrimary: hsla(0, 0%, 100%, 1);
 
 	--color: var(--color-content-primary);
@@ -37,5 +39,6 @@ body {
 	color: var(--color);
 	background-color: var(--background-color);
 	line-height: 1.5;
+	letter-spacing: 0.1;
 	font-weight: 400;
 }
