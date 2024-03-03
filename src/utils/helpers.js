@@ -1,3 +1,8 @@
+/**
+ * Formats a date string into a human-readable format.
+ * @param {string} inputDate - The input date string in the format "YYYY-MM-DD".
+ * @returns {string} The formatted date string in the format "Month Day, Year".
+ */
 const formatDate = (inputDate) => {
   const months = [
     'January',
@@ -35,4 +40,12 @@ const formatDate = (inputDate) => {
   return formattedDate;
 };
 
-export default formatDate;
+/**
+ * Generates a unique key string.
+ * @returns {string} A unique key string generated using Math.random() and Date.
+ */
+const generateUniqueKey = () => `key-${
+  Math.random().toString(36).substr(2, 16) + new Date().getUTCMilliseconds()
+}`;
+
+export { formatDate, generateUniqueKey };
